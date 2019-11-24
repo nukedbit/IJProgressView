@@ -25,7 +25,7 @@ class WithNavBarViewController: UIViewController {
     }
     
     @IBAction func showButtonTapped(_ sender: UIButton) {
-        IJProgressView.shared.showProgressView()
+        IJProgressView.shared.showProgressView(showCancel: true)
         setCloseTimer()
     }
     
